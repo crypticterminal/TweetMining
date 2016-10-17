@@ -4,7 +4,6 @@ from datetime import datetime
 import json
 import pymongo
 import textblob
-import pandas as pd
 from show_feed import show_feed
 from help_stream import help_stream
 
