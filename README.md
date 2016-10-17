@@ -31,3 +31,6 @@ The output of show_feed command
 
 ##Author
 vduddu
+
+##License
+This project is licensed under the MIT License - see the LICENSE file for details
