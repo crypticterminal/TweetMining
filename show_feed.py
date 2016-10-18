@@ -1,14 +1,13 @@
 import pymongo
 from textblob import TextBlob
 import time
+from mongo import mongo
 
 sentim=""
 subob=""
 def show_feed():
 	while 1:
-		client=pymongo.MongoClient()
-		db=client['db']
-		tweets=db['tweets']
+		mongo()
 
 		it=tweets.find()
 
