@@ -3,6 +3,7 @@ import os
 from datetime import datetime
 import json
 import pymongo
+from mongo import mongo
 import textblob
 from show_feed import show_feed
 from help_stream import help_stream
@@ -27,9 +28,7 @@ class StreamL(tweepy.StreamListener):
 
 	def on_data(self,data):
 		if self.counter<=self.max_tweets:
-			client=pymongo.MongoClient()
-			db=client['db']
-			tweets=db['tweets']
+			mongo()
 			tweet=json.loads(data)
 			tweets.insert(tweet)
 			self.counter +=1
