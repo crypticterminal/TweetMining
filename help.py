@@ -1,10 +1,8 @@
-def help():
+from banner import banner
 
-	print("""
-				##################################################
-		 		#######>>>>Twitter Live Stream Analysis<<<<#######
-                 		##################################################
-				
+def help():
+	banner()
+	print("""			
 				Author: vduddu
 				Mail:   vduddu@protonmail.com
 
