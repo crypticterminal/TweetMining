@@ -15,7 +15,14 @@ Tweepy
 Pymongo
     
     pip install pymongo
+    
+PyFiglet
+
+    pip install pyfiglet
  
+##Executing the tool
+
+    python main.py
  
 ##ScreeenShots
 
