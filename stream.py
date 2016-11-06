@@ -7,6 +7,7 @@ from mongo import mongo
 import textblob
 from show_feed import show_feed
 from help_stream import help_stream
+import signal					#Did not check. Might give problems
 
 
 key=[]
@@ -100,7 +101,10 @@ def stream():
 				print i	
 	
 		elif usr_inp=="get_feed":
-			tweetStream.filter(track=key)
+			try:
+				tweetStream.filter(track=key)
+			except KeyboardInterrupt:		# Did not check. Might give errors
+				return()
 		
 		elif usr_inp=="show_feed":
 			show_feed()			
