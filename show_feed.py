@@ -2,6 +2,7 @@ import pymongo
 from textblob import TextBlob
 import time
 from mongo import mongo
+import signal
 
 sentim=""
 subob=""
@@ -45,6 +46,9 @@ def show_feed():
 					print("language: " + i['lang'])
 					print("Sentiment: " + sentim) 
 					print("Subjective/Objective: " + subobr)
+				
+				except KeyboardInterrupt:
+					return
 				
 				except:
 					continue
