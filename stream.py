@@ -7,7 +7,7 @@ from mongo import mongo
 import textblob
 from show_feed import show_feed
 from help_stream import help_stream
-import signal					#Did not check. Might give problems
+import signal					#Keyboard Interrupt Handling | Did not check | Might give problems
 
 
 key=[]
@@ -103,8 +103,8 @@ def stream():
 		elif usr_inp=="get_feed":
 			try:
 				tweetStream.filter(track=key)
-			except KeyboardInterrupt:		# Did not check. Might give errors
-				return()
+			except KeyboardInterrupt:		# Keyboard Interrupt Handling |Did not check | Might give errors
+				return
 		
 		elif usr_inp=="show_feed":
 			show_feed()			
