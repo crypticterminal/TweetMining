@@ -2,7 +2,7 @@ import pymongo
 from textblob import TextBlob
 import time
 from mongo import mongo
-import signal
+import signal		#Handles Keyboard interrupt | Did not check |might be bug
 
 sentim=""
 subob=""
@@ -47,7 +47,7 @@ def show_feed():
 					print("Sentiment: " + sentim) 
 					print("Subjective/Objective: " + subobr)
 				
-				except KeyboardInterrupt:
+				except KeyboardInterrupt:		#Handles Keybooad interrupt | did not check | Might be a bug
 					return
 				
 				except:
