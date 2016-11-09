@@ -29,6 +29,10 @@ PyFiglet
 ## ScreeenShots
 
 
+### Startup Screen
+
+![screen shot 2016-11-09 at 7 48 14 pm](https://cloud.githubusercontent.com/assets/20644368/20141258/87cf6572-a6b5-11e6-8935-f323e1696bc9.png)
+
 #### List of all the stream commands
 
 ![screen shot 2016-10-17 at 5 52 31 pm](https://cloud.githubusercontent.com/assets/20644368/19441152/3def8d9e-94a2-11e6-966c-6442670acbff.png)
