@@ -1,4 +1,4 @@
-# TweetMining   [![Build Status](https://travis-ci.org/vduddu/TweetMining.svg?branch=master)](https://travis-ci.org/vduddu/TweetMining)
+# TweetMining   [![Build Status](https://travis-ci.org/vduddu/TweetMining.svg?branch=master)](https://travis-ci.org/vduddu/TweetMining) [![NSP Status](https://nodesecurity.io/orgs/vduddu/projects/efc25a8b-2bd8-441f-ac0e-1d0e16be5e3c/badge)](https://nodesecurity.io/orgs/vduddu/projects/efc25a8b-2bd8-441f-ac0e-1d0e16be5e3c)
 TweetMining is a command line tool to get live tweets based on user input keywords and performs sentiment analysis on these tweets. It uses Twitter's streaming API to get all the tweets corrresponding to the keywords and stores them in mongo database.
 TextBlob library is used to perform sentiment analysis on these tweets.
 
