@@ -43,7 +43,7 @@ PyFiglet
 ![screen shot 2016-10-17 at 5 34 08 pm](https://cloud.githubusercontent.com/assets/20644368/19441113/1bf4a90e-94a2-11e6-9100-26b2e0756221.png)
 
 ## Developer
-vduddu
+Vasisht Duddu(vduddu)
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details
