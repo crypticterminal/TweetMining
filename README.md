@@ -6,6 +6,8 @@ TextBlob library is used to perform sentiment analysis on these tweets.
 
 -Analyse the tweets with NLTK python
 
+- Tokenizer, Stemmer, ngrams
+
 
 ## Getting Started
 
